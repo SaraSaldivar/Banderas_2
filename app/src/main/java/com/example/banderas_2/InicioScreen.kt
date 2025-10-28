@@ -16,5 +16,15 @@ fun MexicoBandera(modifier: Modifier = Modifier){
             .fillMaxHeight()
             .background(Color(0xFF006847))
         )
+        Box(modifier=Modifier
+            .weight(1f)
+            .fillMaxHeight()
+            .background(Color.White)
+        )
+        Box(modifier= Modifier
+            .weight(1f)
+            .fillMaxHeight()
+            .background(Color(0xFFCE1126))
+        )
     }
 }
